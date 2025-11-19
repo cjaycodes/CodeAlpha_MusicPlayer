@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/musicplayer.css">
+  <title>Music Player</title>
+</head>
+<body>
+  <nav>
+    <a href="/CodeAlpha_MusicPlayer/index.html" title ="Home">🏠</a>
+    <a href="/pages/library.html" title="Library">📚</a>
+    <a href="/pages/playlist.html" title="Add Playlist">➕</a>
+    <a href="#" title="Notifications">🔔</a>
+    <a href="#" title="Profile">👤</a>
+    <a href="#" title="More">...</a>
+    <a href="#" title="Upgrade to Premium"><button id="btn1">Explore Premium</button></a>
+  </nav>
+  <div class="search-container">
+<input type="text" id="searchInput" placeholder="What do you want to listen to">
+</div>
+<button id="btn">Search</button>
+
+<div id="results">
+
+</div>
+
+  <div class="playlist">
+   
+  </div>
+
+
+ <audio id="player" controls style="display:none;"></audio>
+
+
+<script src="/CodeAlpha_MusicPlayer/Api.js"></script>
+  
+</body>
+</html>
